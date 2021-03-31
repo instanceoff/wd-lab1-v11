@@ -15,28 +15,72 @@ body {
 
 #main_header {
   display: flex;
+  max-width: 1440px;
   align-items: center;
-  justify-content: space-around;
   height: 156px;
   margin: 0px auto;
+  max-width: 1440px;
 }
 
 #header_logo {
   display: flex;
   margin-top: 0px;
-  margin-left: 20px;
+  margin-left: 135px;
 }
 
 #header_list {
   display: flex;
+  padding-inline-start: 0px;
 }
 
 #header_list li {
   list-style: none;
   color: #ffffff;
-  margin: 0px 21px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+  margin: 0px 10.5px;
+
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+
+  text-align: center;
 }
+
+#header_list li:first-child {
+  margin-left: 12px;
+}
+
+/*
+#header_list {
+  display: flex;
+  padding-inline-start: 0px;
+}
+
+#header_list li {
+  list-style: none;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0px 10.5px;
+  font-family: Roboto;
+  font-size: 15px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+#header_list li:first-child {
+  margin-left: 12px;
+}
+*/
 
 #email_input {
   outline: none;
