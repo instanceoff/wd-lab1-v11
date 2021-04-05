@@ -284,11 +284,7 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 33px;
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.1px;
-
-  /* text */
   padding-bottom: 3px;
   color: #252b42;
 }
