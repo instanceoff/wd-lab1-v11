@@ -4,6 +4,25 @@ body {
   overflow-x: hidden;
 }
 
+.button {
+  width: 141px;
+  outline: none;
+  border: none;
+  border: #ffffff solid;
+  border-radius: 30px;
+  padding: auto;
+  color: #2091f9;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  background-color: #ffffff;
+  color: #2091f9;
+  text-align: center;
+}
+
 #gradient {
   position: absolute;
   top: 0px;
@@ -311,4 +330,50 @@ body {
 
 .media {
   width: 950px;
+}
+
+.hl9 {
+  width: 1440px;
+  height: 516px;
+  margin: 0px auto;
+  background-image: url(./assets/Hero\ Light\ 9.png);
+}
+
+.third {
+  margin: 8px auto 0px;
+  padding-top: 100px;
+}
+
+.hh3 {
+  color: #ffffff;
+}
+
+.hh1 {
+  color: #ffffff;
+}
+
+.hh4 {
+  color: #ffffff;
+}
+
+.hl9btns {
+  margin: 71px auto 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 312px;
+  height: 52px;
+}
+
+.hl9btn1 {
+  width: 124px;
+  height: 52px;
+}
+
+.hl9btn2 {
+  background-color: transparent;
+  color: #fff;
+  width: 172px;
+  height: 48px;
+  border-width: 1px;
 }
