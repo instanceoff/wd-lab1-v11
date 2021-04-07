@@ -190,7 +190,7 @@ section {
   line-height: 57px;
   letter-spacing: 0.2px;
   color: #252b42;
-
+  margin-bottom: 7px;
   padding: 10px 0px;
 }
 
@@ -484,7 +484,28 @@ section {
   height: 54px;
   padding: 0px;
   margin: 0px;
-  margin-left: 12px;
+  margin-left: 9px;
+  color: #fff;
+  background-color: #2091f9;
+}
+
+.prtnrs {
+  margin-top: 187px;
+}
+
+.prtnrs_icons {
+  margin: 31px auto 0px;
+  width: 953.97px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prtnrs_bt {
+  margin: 79px auto 0px;
+  width: fit-content;
+}
+
+.prtnrs_btn {
   color: #fff;
   background-color: #2091f9;
 }
