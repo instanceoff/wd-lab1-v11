@@ -583,3 +583,91 @@ section {
   margin-top: 27px;
   text-align: center;
 }
+
+.testim_btn {
+  width: fit-content;
+  margin: 77px auto 0px;
+}
+
+.testimonials_btn {
+  width: 200px;
+  background-color: #2091f9;
+  color: #ffffff;
+}
+
+.pricing {
+  height: 460px;
+  background-color: #252b42;
+}
+
+.pricing__content {
+  display: flex;
+  margin: 100px auto;
+  width: fit-content;
+  height: 260px;
+}
+
+.pricing_h1 {
+  text-align: left;
+}
+
+.pricing__p {
+  margin: 0px;
+  padding: 10px;
+  color: #fff;
+}
+
+.price_p {
+  color: #fff;
+}
+
+.pricing__price {
+  align-items: center;
+  display: flex;
+}
+
+.price {
+  margin: 0px;
+}
+
+.pricing__left {
+  margin-top: 90px;
+}
+
+.pricing__rigth {
+  width: fit-content;
+  height: fit-content;
+  margin: 97px 14px 0px 275px;
+  text-align: left;
+  justify-content: center;
+}
+
+.pricing__h4 {
+  margin: 0px 0px 0px 0px;
+}
+
+.price_p {
+  margin: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+
+.pricing__h4 {
+  text-align: left;
+}
+
+.price_btn {
+  width: 160px;
+  margin-top: 23px;
+  margin-left: 8px;
+  color: #fff;
+  background-color: #2091f9;
+}
