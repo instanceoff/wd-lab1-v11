@@ -371,7 +371,7 @@ section {
 }
 
 .third {
-  margin: 8px auto 0px;
+  margin: -37px auto 0px;
   padding-top: 100px;
 }
 
@@ -713,7 +713,7 @@ section {
 .contact__form {
   width: 868px;
   height: 670px;
-  margin: 50px auto;
+  margin: 58px auto;
   border: 1px #dedede solid;
   border-radius: 20px;
 }
@@ -755,39 +755,4 @@ section {
 .contact__button {
   background-color: #2091f9;
   color: #fff;
-}
-
-.footer {
-  background-color: #252b42;
-}
-
-.footer__content {
-  margin: 107px auto;
-}
-
-.footer__content__menu {
-  text-align: left;
-}
-
-.footer__content__menu__list {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-  color: #fff;
-  width: fit-content;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 27px;
-  letter-spacing: 0.2px;
-}
-
-.footer__content__menu__h3 {
-  text-align: left;
-  width: fit-content;
-}
-
-.bug {
-  margin-top: 65px;
 }
