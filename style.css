@@ -671,3 +671,123 @@ section {
   color: #fff;
   background-color: #2091f9;
 }
+
+.contact {
+  margin-top: 198px;
+}
+
+.contact__h4 {
+  color: #18171d;
+}
+
+.contact__socials {
+  width: fit-content;
+  margin: 0px auto 0px;
+}
+
+.contact__map {
+  width: fit-content;
+  height: fit-content;
+  margin: 44px auto 0px;
+  padding: 10px 0px;
+}
+
+.contact__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 37px auto 0px;
+  width: 527px;
+  height: 98px;
+}
+
+.contact__items__img {
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.contact__items__mail__h6 {
+  margin-top: 10px;
+}
+
+.contact__form {
+  width: 868px;
+  height: 670px;
+  margin: 50px auto;
+  border: 1px #dedede solid;
+  border-radius: 20px;
+}
+
+.contact__form__h3 {
+}
+
+.contact__form__name {
+  width: 768px;
+  margin: 0px auto;
+}
+
+.contact__form__email {
+  width: 768px;
+  margin: 0px auto;
+}
+
+.contact__form__msg {
+  width: 768px;
+  height: 193px;
+  margin: 0px auto;
+}
+
+.contact__form__msg::placeholder {
+  padding: 0px 0px;
+  text-align: left;
+}
+
+.container {
+  width: fit-content;
+  height: fit-content;
+  margin: 45px auto;
+}
+
+.contact__btn {
+  margin-left: 30px;
+}
+
+.contact__button {
+  background-color: #2091f9;
+  color: #fff;
+}
+
+.footer {
+  background-color: #252b42;
+}
+
+.footer__content {
+  margin: 107px auto;
+}
+
+.footer__content__menu {
+  text-align: left;
+}
+
+.footer__content__menu__list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  color: #fff;
+  width: fit-content;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.footer__content__menu__h3 {
+  text-align: left;
+  width: fit-content;
+}
+
+.bug {
+  margin-top: 65px;
+}
