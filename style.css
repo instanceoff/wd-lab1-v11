@@ -703,7 +703,7 @@ section {
 
 .contact__items__img {
   width: fit-content;
-  margin: 0px auto;
+  margin: 0px auto 15px;
 }
 
 .contact__items__mail__h6 {
@@ -719,22 +719,24 @@ section {
 }
 
 .contact__form__h3 {
+  margin-top: 51px;
 }
 
 .contact__form__name {
-  width: 768px;
+  width: 728px;
   margin: 0px auto;
 }
 
 .contact__form__email {
-  width: 768px;
+  width: 728px;
   margin: 0px auto;
 }
 
 .contact__form__msg {
-  width: 768px;
+  width: 728px;
   height: 193px;
   margin: 0px auto;
+  resize: none;
 }
 
 .contact__form__msg::placeholder {
@@ -749,10 +751,109 @@ section {
 }
 
 .contact__btn {
-  margin-left: 30px;
+  margin-top: -20px;
+  margin-left: 50px;
 }
 
 .contact__button {
   background-color: #2091f9;
   color: #fff;
+}
+
+.footer__list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.footer__list li {
+  margin: 16px 0px;
+  width: fit-content;
+}
+
+.footer__list li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__menu {
+  display: block;
+}
+
+.footer {
+  padding: 100px;
+  margin: 97px auto 0px;
+  width: 1036px;
+  background-color: #252b42;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  width: 969px;
+}
+
+.footer__news__h3 {
+  text-align: left;
+  margin: 0px;
+  margin-left: 10px;
+
+  width: fit-content;
+  color: #fff;
+}
+
+.footer__menus {
+  display: flex;
+  width: 583px;
+  justify-content: space-between;
+}
+
+.footer__socials {
+  width: fit-content;
+  margin-bottom: 25px;
+}
+
+.footer__p {
+  margin: 5px 10px;
+  margin-bottom: 27px;
+
+  width: fit-content;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.footer__news {
+  display: block;
+}
+
+.footer__socials {
+  margin-top: 7px;
+}
+
+.footer__email {
+  width: 315px;
+  margin-bottom: 12px;
+}
+
+.footer__inputs {
+  margin-left: 10px;
+  width: 253px;
+}
+
+.footer__btn {
+  width: 355px;
+  color: #fff;
+  background-color: #2091f9;
 }
